@@ -1,0 +1,23 @@
+.productCard {
+  margin: 20px 30px;
+  box-shadow: 5px 5px 17px #d5d5d5;
+  padding: 20px;
+  background-color: #f5f5f7;
+  border-radius: 20px;
+}
+
+.productCard > img {
+  border-radius: 15px;
+}
+
+.productCard > span {
+  margin: 20px 0px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #32cd32;
+}
+

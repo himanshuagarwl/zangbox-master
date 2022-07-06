@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+/* Style for About Section */
+
+.about-section {
+    width: 100%;
+    min-height: 91vh;
+    background-color: #ddd;
+}
+.about-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.about-content {
+    float: left;
+    width: 55%;
+}
+.about-content .title {
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    color: #ff3300;
+}
+.about-content .content h2 {
+        margin-top: 20px;
+        /* color: #5d5d5d; */
+        font-size: 21px;
+        text-transform: uppercase;
+}
+.about-content .content p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5d5d5d;
+}
+
+
+.image-section{
+    float: right;
+    width: 40%;
+    position: relative;
+    top: -1;
+    left: 0;
+}
+.image-section img {
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+  top: 0;
+  left: 0;
+}
+.img1about {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 8px white solid;
+}
+.img2 {
+    position: absolute!important;
+    margin-left: 258px;
+    width: 45%!important;
+    height: 40%!important;
+    border: 8px white solid;
+}
+
+@media screen and (max-width:768px) {
+    .about-container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .about-content {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .about-content .title {
+        text-align: center;
+        font-size: 19px;
+    }
+    .image-section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+    .image-section img {
+        width: 85%;
+        height: 400px;
+        display: block;
+        margin: auto;
+    }
+}
+
+/* Style for my team section  */
+
+.team-section {
+    background: url("raspberries.jpg");
+      
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+    min-height: 100vh;
+    padding: 70px 15px 30px;
+}
+.team-container {
+    max-width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-section .title {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+.team-section .title h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+}
+.team-section .title p {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 0;
+    color: #ffffff;
+}
+.team-section .team-items {
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team-section .team-items .item {
+    flex-basis: calc(25% - 30px);
+    max-width:  calc(25% - 30px);
+    transition: all .5s ease;
+    margin-bottom: 40px;
+}
+.team-section .team-items .item img {
+    display: block;
+    width: 100%;
+}
+.team-section .team-items .item .inner {
+    position: relative;
+    z-index: 11;
+    padding: 0 15px;
+}
+.team-section .team-items .item .inner .info {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    margin-top: -40px;
+}
+.team-section .team-items .item:hover .info {
+    transform: translateY(-20px);
+}
+.team-section .team-items .item:hover {
+    transform: translateY(-10px);
+}
+.team-section .team-items .item .inner .info h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    /* color: #ffffff; */
+}
+.team-section .team-items .item .inner .info p {
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #c5c5c5; */
+    margin: 10px 0 0;
+}
+.team-section .team-items .item .inner .info .social-links {
+    padding-top: 15px;
+}
+.team-section .team-items .item .inner .info .social-links a {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+    margin: 0 2px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+.team-section .team-items .item .inner .info .social-links a:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .team-section .team-items .item {
+        flex-basis: calc(50% - 30px);
+        max-width:  calc(50% - 30px);
+    }
+}
+@media (max-width: 767px) {
+    .team-section .team-items .item {
+        flex-basis: calc(100%);
+        max-width:  calc(100%);
+    }
+}

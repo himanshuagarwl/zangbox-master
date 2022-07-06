@@ -1,0 +1,255 @@
+
+.sectiona{
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftside{
+    margin-left: 00px;
+}
+.secatitle{
+  margin-top: 200px;
+  margin-left: 20%;
+}
+
+.secatitle > .line1{
+  font-size: 30px;
+  color: red;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.secatitle > .line2a{
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  width: 450px;
+}
+
+.secatitle > p{
+  width: 455px;
+  margin: 10px 0px;
+  font-size: 17px;
+  word-spacing: 3px;
+  letter-spacing: 0.1px;
+  line-height: 28px;
+  color: rgb(92, 95, 93);
+
+}
+
+.secatitle > button{
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #32CD32;
+  box-shadow: 2px 5px 5px rgb(147, 148, 146);
+}
+
+.secatitle > button:hover{
+  color: #32CD32;
+  cursor: pointer;
+  background-color: aliceblue;
+
+}
+
+.rightside{
+  background-image: url("./kim-ick-Zuvhor44ues-unsplash.jpeg");
+  margin-top: 100px;
+  margin-left: 20%;
+  border-radius: 50% 5% 50% 50%;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 14px 20px rgb(97, 97, 97);
+    
+    
+}
+
+
+.head1 {
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: 8%;
+}
+.head1::after {
+  content: "";
+  width: 12rem;
+  height: 0.3rem;
+  background-color: #45e19f;
+  position: absolute;
+  bottom: -5rem;
+  left: 15.9%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card1 {
+  background-color: rgb(255, 255, 255);
+  height: 410px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border: 1px solid rgba(176, 176, 176, 0.684);
+  border-top-left-radius: 100px 0px;
+  border-top-right-radius: 0px 50px;
+  border-bottom-right-radius: 623px 128px;
+  border-bottom-left-radius: 77px 58px;
+  box-shadow: 5px 5px 10px rgb(187, 186, 186);
+}
+.card {
+  height: 230px;
+  width: 300px;
+  position: absolute;
+  margin-top: -20px;
+  margin-bottom: 200px;
+  background-size: contain, cover;
+  z-index: 1;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.carddesc {
+  padding-top: 200px;
+}
+
+.burger {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 20px;
+}
+
+.card1 > div{
+  margin: 10px 20px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+
+}
+
+.card1 > button {
+  margin: 10px 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #32CD32;
+  box-shadow: 0px 5px 5px rgb(147, 148, 146);
+}
+
+.img1 {
+  background-image: url("./edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg");
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 14px 20px rgb(97, 97, 97);
+}
+
+.seaction2 {
+  display: flex;
+  flex-direction: row;
+}
+.para {
+  margin-top: 140px;
+  margin-left: 100px;
+}
+.line1 {
+  margin-bottom: 20px;
+}
+.line2 {
+  font-size: 300%;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.line3 {
+  font-size: x-large;
+  font-weight: lighter;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.para > p {
+  width: 74%;
+  word-spacing: 2px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.para > .sec2img{
+  background-image: url(./secc.png);
+  position: absolute;
+  right: 0%;
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 300px;
+  z-index: -999;
+  margin-top: 20px;
+  margin-right: 8%;
+  border-radius: 50% 50% 50% 10%;
+  background-size: contain;
+  box-shadow: 5px 10px 8px rgb(181, 181, 181);
+  background-color: transparent;
+}
+
+.section3 {
+  margin-top: 150px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.head2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.a {
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+}
+.a > li {
+  list-style-type: none;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.c1 {
+  display: flex;
+  margin: 30px 30px;
+}
+
+.cardtext {
+  background-color: rgb(242, 244, 244);
+  width: 300px;
+  margin: 0px 0px 0px 10px;
+  padding: 20px 10px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 5px 10px 20px rgb(200, 199, 199);
+}
+
+.sectiond {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.sectiond > img{
+    box-shadow: 5px 10px 20px rgb(200, 199, 199);
+}
+
+.bottomcard{
+  margin-bottom: 100px;
+}

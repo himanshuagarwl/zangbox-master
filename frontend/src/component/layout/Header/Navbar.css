@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    
+}
+
+.menu{
+    margin-left: 25%;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    top: 0;
+    background-color: #f3f4f2fc;
+    box-shadow: 6px 5px 10px #f6fbf3;
+    position: fixed;
+    z-index: 99;
+}
+
+.navlink:hover{
+    color: white;
+    background-color: #32CD32;
+    border-radius: 20px;
+    padding:8px 10px;
+}
+#logocol{
+    color: #4cbb17;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navitem{
+    font-size: 20px;
+    font-weight: 550;
+    margin: 22px 18px 22px 18px;
+    list-style-type: none;  
+}
+.Logo{
+    height: 70px;
+    width: 90px;
+    margin-left: 100px;
+    visibility: hidden;
+}
+
+.logotex{
+    padding-top: 18px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10%;
+    font-style: italic;
+
+}
+
+.navitems{
+    margin: 21px 12px 21px 12px;
+    font-size: 20px;
+}
+
+.navshopingcart{
+    margin-left: 30%;
+}
+
+
+a.navlink{
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+}
+
+a.navl{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.bottommenu{
+    visibility: hidden;
+    height: 0px;
+}
+
+
+/* rgb(23, 207, 207) */
+
+@media screen and (max-width: 1150px) {
+
+
+    .navlinks{
+        margin-right: 2%;
+    }
+    .Logo{
+        visibility: visible;
+        height: 65px;
+        width: 65px;
+    }
+
+    .navlinks{
+        margin-left: -23%;
+    }
+    .navshopingcart{
+        margin-left: 15%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 830px){
+
+    ul{
+        padding-inline-start: 0px !important;
+    }
+
+    .navbar{
+        height: 80px;
+    }
+
+    .bottommenu{
+        position: fixed;
+        bottom: 0.25vmax;
+        width: 100%;
+        background-color: #f5f5f7;
+        visibility: visible !important;
+        height: 70px;
+        display: flex;
+        z-index: 999;
+        border-radius: 15px;
+        flex-direction: row;
+        justify-content:space-evenly;
+        
+    }
+    .bottomnavl{
+        color: #323643;
+        height: 40px;
+        width: 40px;
+    }
+
+
+    .bottommenubar{
+        bottom: 5%;
+
+    }
+    .bottomnavitems{
+
+        margin-top: 20px;
+        list-style-type: none;
+    }
+    .navshopingcart{
+        margin-left: 40%;
+    }
+    .navlink{
+        width: 0px;
+    }
+    .navitems{
+        top: 5%;
+        right: 4%;
+    }
+    .navitem{
+        visibility: hidden;
+        width: 0%;
+        margin: 0px 0px 0px 0px;
+    }
+    .Logo{
+        height: 60px;
+        width: 60px;
+    }
+
+    .navl{
+        padding: 4px 5px; 
+    }
+}
+
+
+@media screen and (max-width: 550px){
+
+    .menu{
+        float: right;
+        margin-left: 0%;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .navshopingcart{
+        margin-left: 30%;
+    }
+    .Logo{
+        margin-left: 50px;
+    }
+    .navl{
+        padding: 4px 1px; 
+    }
+}

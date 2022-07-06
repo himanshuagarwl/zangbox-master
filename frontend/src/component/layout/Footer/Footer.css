@@ -1,0 +1,147 @@
+.Footer{
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: #121213;
+  background-color: #a9e87f;
+  flex-direction: row;
+}
+
+.footerleftside{
+  display: flex;
+  margin: 40px 50px 30px 10%;
+  flex-direction: column;
+  
+}
+#hrcolor{
+  height: 5px;
+  border: 0px;
+  background-color: #32CD32;
+}
+
+#logotext{
+  font-style: italic;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+#logtext{
+  color: aqua;
+}
+
+.lefttext{
+  width: 190px;
+  padding: 20px 0px;
+  font-size: medium;
+}
+
+
+.Facebook{
+  
+  margin-left: -5px;
+}
+.media{
+  color: #121213;
+
+}
+
+.icontext{
+  padding: 5px 5px;
+}
+
+#followus{
+  margin-top: 30px;
+}
+
+.contactfooter{
+  margin: 50px 20px 30px 20px;
+  width: 180px;
+}
+
+#cf{
+  font-size: larger;
+  font-weight: 900;
+  color:#121213;
+}
+.ct{
+  color: #121213;
+  font-weight: 600;
+  font-size: large;
+}
+
+.cf{
+  margin-top: 15px;
+}
+
+.contacttitle{
+  margin-top: 10px;
+  padding-top: 3px;
+}
+a{
+  text-decoration: none;
+  color: #121213;
+}
+.lt{
+  line-height: 30px;
+}
+
+.bottom{
+  height: 40px;
+  padding-top: 16px;
+  background-color: #F5F5F8;
+  color: #323643;
+  
+}
+
+#cpt{
+
+  margin-left: 130px;
+  font-weight: 800;
+  font-size: large;
+}
+
+.textcolor{
+  color: #32CD32;
+  font-weight: 800;
+}
+
+.maps{
+  margin: 50px 10px 30px 10px;
+  height: 250px;
+  width: 310px;
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1250px){
+  .maps{
+      height: 250px;
+      width: 200px;
+  }
+  .lefttext{
+    width: 130px;
+    font-size: small;
+  }
+  .contactdata{
+    font-size: small;
+  }
+  .lt{
+    font-size: small;
+  }
+  #cpt{
+    margin-left: 100px;
+  }
+
+  #followus{
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 700px){
+  .contactfooter{
+    margin-left: 10%;
+  }
+  .maps{
+    height: 250px;
+    width: 180px;
+}
+  
+}
